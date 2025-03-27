@@ -29,10 +29,10 @@ class View(object):
 
         self._lv = ft.ListView(expand=True)
 
-        row1 = ft.Container(self._titolo, alignment=ft.alignment.center)
+        row1 = ft.Container(self._titolo, alignment=ft.alignment.center) #container generigo
 
         row2 = ft.Row([self._txtOutNMax, self._txtOutTMax, self._txtOutT],
-                      alignment=ft.MainAxisAlignment.CENTER)
+                      alignment=ft.MainAxisAlignment.CENTER) #container riga
 
         row3 = ft.Row([self._btnReset, self._txtIn, self._btnPlay],
                       alignment=ft.MainAxisAlignment.CENTER)

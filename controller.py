@@ -13,7 +13,7 @@ class Controller(object):
     def reset(self, e):
         self._model.reset()
         self._view._txtOutT.value = self._model.T
-        self._view._lv.controls.clear()
+        self._view._lv.controls.clear() #resettare la listview
         self._view._btnPlay.disabled = False
         self._view._txtIn.disabled = False
         self._view._lv.controls.append(
